@@ -1,0 +1,7 @@
+name: test-service 
+chart:
+  name: test-chart
+  version: 2.0.0
+values: v2-values.yaml
+meta:
+  owner: mamin
