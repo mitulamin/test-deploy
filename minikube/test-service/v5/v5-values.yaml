@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: mitul90poe/test-service
-  tag: v1
+  tag: v5
   pullPolicy: Always
 
 service:
@@ -18,7 +18,7 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
-  path: /v1/
+  path: /v5/
   hosts:
     - test-service.local
   tls: []

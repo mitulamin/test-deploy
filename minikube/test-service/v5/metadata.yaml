@@ -1,7 +1,7 @@
 name: test-service 
 chart:
-  name: test-chart
+  name: lc/test-chart
   version: 1.0.0
-values: v1-values.yaml
+values: v5-values.yaml
 meta:
   owner: mamin
